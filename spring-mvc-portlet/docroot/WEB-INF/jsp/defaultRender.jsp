@@ -6,26 +6,25 @@
 
 <div id="pieChart" style="text-align: center"></div>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
 
 <script>
 
 var utenti=null;
 
-AUI().use('liferay-portlet-url', 'aui-base', 'aui-io', function( A ) {
+AUI().use('liferay-portlet-url', 'aui-base', 'aui-io-deprecated', function( A ) {
   
     
     var resourceURL = Liferay.PortletURL.createResourceURL();
     resourceURL.setPortletId( "springmvc_WAR_springmvcportlet" );
     resourceURL.setResourceId("utenteResource");
     resourceURL.setCopyCurrentRenderParameters(true);
-     console.log(resourceURL.toString());
+     
     A.io.request( resourceURL.toString(), {
         dataType: 'json',
         on: {
             success: function(event, id, obj) {
                 utenti = this.get('responseData');
-                console.log("utenti="+utenti);
+                
                     drawPie();
                 
             }
