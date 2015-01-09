@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   <description>SpringMvcPortlet</description>
   <build>
-    <sourceDirectory>docroot/WEB-INF/src</sourceDirectory>
+    <!-- <sourceDirectory>docroot/WEB-INF/src</sourceDirectory> -->
     <plugins>
       <plugin>
 		<groupId>com.liferay.maven.plugins</groupId>
@@ -34,7 +34,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>2.4</version>
         <configuration>
-          <warSourceDirectory>docroot</warSourceDirectory>
+          <warSourceDirectory>src/main/docroot</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
