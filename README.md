@@ -1,6 +1,6 @@
 Istruzioni per l'installazione
 
-1. Impostare nel file setting.xml nella cartella .m2
+1. Impostare nel file setting.xml nella cartella .m2 il profilo corretto, come da seguenti indicazioni (il path C:/Lavoro/Java/liferay-portal-6.2-ce-ga2-tomcat7 va adattato alla propria installazione di Liferay):
 
 ```html
   <profiles>
