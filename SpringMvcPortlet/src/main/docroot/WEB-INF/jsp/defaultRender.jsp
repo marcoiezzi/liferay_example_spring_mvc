@@ -15,9 +15,11 @@ AUI().use('liferay-portlet-url', 'aui-base', 'aui-io-deprecated', function( A ) 
   
     
     var resourceURL = Liferay.PortletURL.createResourceURL();
-    resourceURL.setPortletId( "springmvc_WAR_springmvcportlet" );
+    resourceURL.setPortletId( "springmvc_WAR_SpringMvcPortletportlet" );
     resourceURL.setResourceId("utenteResource");
     resourceURL.setCopyCurrentRenderParameters(true);
+    
+    console.log("resourceUrl = " + resourceURL.toString());
      
     A.io.request( resourceURL.toString(), {
         dataType: 'json',

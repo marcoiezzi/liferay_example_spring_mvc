@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="mytheme-theme">
-        <wb-resource deploy-path="/" source-path="/docroot" tag="defaultRootSource"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/docroot/WEB-INF/src"/>
-        <property name="context-root" value="mytheme-theme"/>
+    <wb-module deploy-name="mytheme-theme-portlet">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/docroot" tag="defaultRootSource"/>
         <property name="java-output-path" value="/mytheme-theme/docroot/WEB-INF/classes"/>
+        <property name="context-root" value="mytheme"/>
     </wb-module>
 </project-modules>
