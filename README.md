@@ -2,7 +2,7 @@ Istruzioni per l'installazione
 
 1. Impostare nel file setting.xml nella cartella .m2
 
-
+```html
   <profiles>
 
 	<profile>
@@ -23,3 +23,4 @@ Istruzioni per l'installazione
   	<activeProfile>inject-liferay-properties</activeProfile>
 	
   </activeProfiles>
+```
