@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>mytheme-theme</name>
+	<name>SpringMvcPortlet</name>
 	<comment></comment>
 	<projects>
+		<project>SharedCore</project>
+		<project>SharedModel</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
 			<name>org.eclipse.wst.jsdt.core.javascriptValidator</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>com.liferay.ide.eclipse.theme.core.cssBuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
